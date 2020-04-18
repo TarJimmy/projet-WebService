@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>WebService</title>
+        <style>
+            a {text-decoration: none; color: black;}
+        </style>
+    </head>
+
+    <body>
+        <h1>Accueil</h1>
+
+        <p>Bienvenue</p>
+        <p>Tant que j'y suis, je prends un nom au hasard qu'on m'a envoyé :
+            <%= noms[Math.round(Math.random() * (noms.length - 1))] %>
+            </p>
+    </body>
+</html>
